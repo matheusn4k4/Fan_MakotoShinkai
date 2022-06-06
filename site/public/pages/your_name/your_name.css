@@ -1,0 +1,505 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Teko:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Assistant', san-serif;
+}
+
+body {
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  margin-top: 6vh;
+  font: 400 15px/1.8;
+  font-family: 'Assistant', san-serif;
+  color: #777;
+}
+
+
+header {
+  position: absolute;
+  width: 100%;
+  background-color: #222;
+  min-height: 10vh;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  z-index: 10vh;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover {
+  transition: all .3s ease-out;
+}
+
+nav {
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+
+}
+
+nav img {
+  top: 0;
+  left: 0;
+  height: 110px;
+  width: 120px;
+}
+
+.logo {
+  font-weight: bolder;
+  color: #fff;
+  margin-left: 0%;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.posicao_head {
+  display: flex;
+  justify-content: space-between;
+  max-height: 7vh;
+}
+
+.posicao_head a {
+  margin: 1%;
+  cursor: pointer;
+}
+
+.btn {
+  left: 0;
+  border-radius: 5%;
+  font-weight: bold;
+  font-size: 14px;
+  width: 120px;
+  height: 50px;
+  margin: 1%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn:hover {
+  color: #111;
+  background-color: rgb(190, 190, 190);
+  border-color: #fff;
+  transition: all .3s ease-out;
+}
+
+.bg_img_your_name {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg_img_your_name_historia {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 130vh;
+}
+
+.bg_img_your_p {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.bg_img_your_name {
+  background-image: url("../../img/your_name_bg_1.jpg");
+  min-height: 100%;
+  width: 100%;
+  margin-top: 1vh;
+}
+
+.bg_img_your_name_historia {
+  background-image: url("../../img/your_name_bg_2.jpg");
+  min-height: 120vh;
+  width: 100%;
+}
+
+.bg_img_your_name_personagem {
+  background-image: url("../../img/your_name_bg_2.jpg");
+  height: 150vh;
+  width: 100%;
+}
+
+.bg_img_your_name_musica {
+  background-image: url("../../img/your_name_bg_2.jpg");
+  height: 150vh;
+  width: 100%;
+}
+
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  bottom: 0;
+}
+
+.caption_historia {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  bottom: 0;
+}
+
+.caption_musica {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  bottom: 0;
+}
+
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+.caption_historia span.border_text p {
+  background-color: #fff;
+  color: #111;
+  padding: 18px;
+  width: 64%;
+  margin: auto;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: -20%;
+
+}
+
+.caption_historia span.border_text2 p {
+  background-color: #fff;
+  color: #111;
+  padding: 18px;
+  width: 64%;
+  margin: auto;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: -15%;
+
+}
+
+.caption_musica span.border_text p {
+  background-color: #fff;
+  color: #111;
+  padding: 18px;
+  width: 64%;
+  margin: auto;
+  font-size: 25px;
+  letter-spacing: 5px;
+  margin-top: -20%;
+
+}
+
+.text_home {
+  position: relative;
+  color: #fff;
+  font-size: 25px;
+  background-color: #111;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+
+}
+
+.taki {
+  width: 500px;
+  height: 300px;
+  border: 2px dashed #333;
+  margin: 3%;
+}
+
+audio {
+  width: 50%;
+  margin: auto;
+}
+
+.personagens_card1 {
+  position: relative;
+  left: 0;
+  top: 410%;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.personagens_card2 {
+  position: relative;
+  left: 0;
+  top: 420%;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.personagens_card3 {
+  position: relative;
+  left: 0;
+  top: 430%;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h5 {
+  margin: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Assistant', san-serif;
+}
+
+h2 {
+  margin-top: 10%;
+  font-family: 'Assistant', san-serif;
+  font-size: 25px;
+}
+
+.center {
+  height: 40vh;
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.property-card {
+  height: 300px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.property-image1 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_mitsuha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image2 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_taki.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image3 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_miki.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image4 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_hitoha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image5 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_teshigawara.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image6 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_natori.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image7 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_fujii.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image8 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_takagi.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image9 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_yotsuha.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image10 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_toshiki.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image11 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_futaba.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-image12 {
+  height: 100%;
+  width: 100%;
+  padding: 1px 2px;
+  position: Absolute;
+  top: 0px;
+  background-image: url('../../img/yn_ft_perfil_yukari.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.property-description {
+  background-color: #333;
+  color: #fff;
+
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0.5px 1px;
+  text-align: center;
+  transition: all .8s ease-in;
+}
+
+.property-card:hover .property-description {
+  transition: all .8s ease-out;
+  height: 0%;
+  padding: 0px 2px;
+}
+
+.property-card:hover .property-image {
+  height: 100%;
+}
+
+
+.footer {
+  color: #fff;
+  background-color: #222;
+  height: 9vh;
+  width: 100vw;
+  display: flex;
+  margin: auto;
+  text-transform: none;
+
+}
+
+.card {
+  text-transform: none;
+  width: auto;
+  margin: auto;
+  text-align: center;
+}
