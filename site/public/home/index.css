@@ -24,7 +24,6 @@ html {
   color: #777;
 }
 
-
 header {
   position: absolute;
   width: 100%;
@@ -52,7 +51,6 @@ nav {
   align-items: center;
   width: 100%;
   justify-content: space-around;
-
 }
 
 nav img{
@@ -81,7 +79,6 @@ nav img{
   cursor:pointer;
 }
 
-
 .btn {
   left: 0;
   border-radius: 5%;
@@ -95,7 +92,6 @@ nav img{
   color: #fff;
   cursor: pointer;
 }
-
 
 .btn a {
   text-decoration: none;
@@ -111,9 +107,7 @@ nav img{
 
 .conteudo img {
   width: 100%;
-
 }
-
 
 .text_home {
   color: #111;
@@ -147,27 +141,27 @@ nav img{
 }
 
 .bg_img_mk {
-  background-image: url("../../img/mk_bg_home.jpg");
+  background-image: url("../img/mk_bg_home.jpg");
   min-height: 100%;
 }
 
 .bg_img_yn {
-  background-image: url("../../img/yn_bg_home.jpg ");
+  background-image: url("../img/yn_bg_home.jpg ");
   min-height: 100%;
 }
 
 .bg_img_tnk {
-  background-image: url("../../img/tnk_bg_home.jpg");
+  background-image: url("../img/tnk_bg_home.jpg");
   min-height: 100%;
 }
 
 .bg_img_tgow {
-  background-image: url("../../img/tgow_bg_home.jpg");
+  background-image: url("../img/tgow_bg_home.jpg");
   min-height: 100%;
 }
 
 .bg_img_fcps {
-  background-image: url("../../img/fcps_bg_home.png");
+  background-image: url("../img/fcps_bg_home.png");
   min-height: 100%;
 }
 
@@ -200,7 +194,6 @@ nav img{
   font-weight: bold;
 }
 
-
 h3 {
   text-align: center;
   letter-spacing: 5px;
@@ -231,20 +224,27 @@ h3 {
 .home_final a {
   text-decoration: underline;
   color: #fff;
+}
   
+img {
+  width: 500px;
+  height: 300px;
+  border: 2px dashed #333;
+  margin: 3%;
 }
 
 .footer {
   color: #fff;
   background-color: #222;
-  height: 9vh;
+  height: 10vh;
   width: 100vw;
   display: flex;
   margin: auto;
+  text-align: center;
   text-transform: none;
 }
 
-.card{
+.card {
   text-transform: none;
   width: auto;
   margin: auto;

@@ -52,7 +52,6 @@ nav {
   align-items: center;
   width: 100%;
   justify-content: space-around;
-
 }
 
 nav img {
@@ -96,7 +95,6 @@ nav img {
   cursor: pointer;
 }
 
-
 .btn a {
   text-decoration: none;
   color: #fff;
@@ -134,29 +132,27 @@ nav img {
   background-size: cover;
 }
 
-
-
 .bg_img_your_name {
-  background-image: url("../../img/your_name_bg_1.jpg");
+  background-image: url("../img/your_name_bg_1.jpg");
   min-height: 100%;
   width: 100%;
-  margin-top: 1vh;
+  margin-top: 7.2vh;
 }
 
 .bg_img_your_name_historia {
-  background-image: url("../../img/your_name_bg_2.jpg");
+  background-image: url("../img/your_name_bg_2.jpg");
   min-height: 120vh;
   width: 100%;
 }
 
 .bg_img_your_name_personagem {
-  background-image: url("../../img/your_name_bg_2.jpg");
+  background-image: url("../img/your_name_bg_2.jpg");
   height: 150vh;
   width: 100%;
 }
 
 .bg_img_your_name_musica {
-  background-image: url("../../img/your_name_bg_2.jpg");
+  background-image: url("../img/your_name_bg_2.jpg");
   height: 150vh;
   width: 100%;
 }
@@ -201,7 +197,6 @@ nav img {
   letter-spacing: 10px;
 }
 
-
 .caption_historia span.border_text p {
   background-color: #fff;
   color: #111;
@@ -223,7 +218,12 @@ nav img {
   font-size: 25px;
   letter-spacing: 5px;
   margin-top: -15%;
+}
 
+.caption_historia span.border_text2 a {
+  text-decoration: underline;
+  color: #111;
+  cursor: pointer;
 }
 
 .caption_musica span.border_text p {
@@ -235,7 +235,6 @@ nav img {
   font-size: 25px;
   letter-spacing: 5px;
   margin-top: -20%;
-
 }
 
 .text_home {
@@ -248,10 +247,9 @@ nav img {
   text-align: justify center;
   text-transform: uppercase;
   letter-spacing: 10px;
-
 }
 
-.taki {
+img {
   width: 500px;
   height: 300px;
   border: 2px dashed #333;
@@ -336,7 +334,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_mitsuha.jpg');
+  background-image: url('../img/yn_ft_perfil_mitsuha.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -347,7 +345,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_taki.jpg');
+  background-image: url('../img/yn_ft_perfil_taki.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -358,7 +356,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_miki.jpg');
+  background-image: url('../img/yn_ft_perfil_miki.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -369,7 +367,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_hitoha.jpg');
+  background-image: url('../img/yn_ft_perfil_hitoha.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -380,7 +378,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_teshigawara.jpg');
+  background-image: url('../img/yn_ft_perfil_teshigawara.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -391,7 +389,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_natori.jpg');
+  background-image: url('../img/yn_ft_perfil_natori.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -402,7 +400,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_fujii.jpg');
+  background-image: url('../img/yn_ft_perfil_fujii.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -413,7 +411,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_takagi.jpg');
+  background-image: url('../img/yn_ft_perfil_takagi.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -424,7 +422,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_yotsuha.jpg');
+  background-image: url('../img/yn_ft_perfil_yotsuha.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -435,7 +433,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_toshiki.jpg');
+  background-image: url('../img/yn_ft_perfil_toshiki.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -446,7 +444,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_futaba.jpg');
+  background-image: url('../img/yn_ft_perfil_futaba.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -457,7 +455,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_yukari.jpg');
+  background-image: url('../img/yn_ft_perfil_yukari.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -465,7 +463,6 @@ h2 {
 .property-description {
   background-color: #333;
   color: #fff;
-
   height: 60%;
   width: 100%;
   position: absolute;
@@ -489,12 +486,12 @@ h2 {
 .footer {
   color: #fff;
   background-color: #222;
-  height: 9vh;
+  height: 10vh;
   width: 100vw;
   display: flex;
   margin: auto;
+  text-align: center;
   text-transform: none;
-
 }
 
 .card {

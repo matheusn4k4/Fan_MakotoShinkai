@@ -352,14 +352,15 @@ hr{
 .footer {
     color: #fff;
     background-color: #222;
-    height: 9vh;
+    height: 10vh;
     width: 100vw;
     display: flex;
     margin: auto;
+    text-align: center;
     text-transform: none;
   }
   
-  .card{
+  .card {
     text-transform: none;
     width: auto;
     margin: auto;

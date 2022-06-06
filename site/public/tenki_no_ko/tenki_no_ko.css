@@ -1,195 +1,205 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Teko:wght@300;400;500;600;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Assistant', san-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Assistant', san-serif;
 }
 
 body {
-    background-color: #111;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow-x: hidden;
+  background-color: #111;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 body,
 html {
-    height: 100%;
-    margin: 0;
-    margin-top: 6vh;
-    font: 400 15px/1.8;
-    font-family: 'Assistant', san-serif;
-    color: #777;
+  height: 100%;
+  margin: 0;
+  margin-top: 6vh;
+  font: 400 15px/1.8;
+  font-family: 'Assistant', san-serif;
+  color: #777;
 }
 
-
 header {
-    position: absolute;
-    width: 100%;
-    background-color: #222;
-    min-height: 10vh;
-    top: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    display: flex;
-    z-index: 10vh;
+  position: absolute;
+  width: 100%;
+  background-color: #222;
+  min-height: 10vh;
+  top: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  z-index: 10vh;
 }
 
 header a {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 header a:hover {
-    transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
 nav {
-    top: 0;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-around;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
 
 }
 
 nav img {
-    top: 0;
-    left: 0;
-    height: 110px;
-    width: 120px;
+  top: 0;
+  left: 0;
+  height: 110px;
+  width: 120px;
 }
 
 .logo {
-    font-weight: bolder;
-    color: #fff;
-    margin-left: 0%;
-    font-size: 30px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+  font-weight: bolder;
+  color: #fff;
+  margin-left: 0%;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
 .posicao_head {
-    display: flex;
-    justify-content: space-between;
-    max-height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  max-height: 7vh;
 }
 
 .posicao_head a {
-    margin: 1%;
-    cursor: pointer;
+  margin: 1%;
+  cursor: pointer;
 }
 
 .btn {
-    left: 0;
-    border-radius: 5%;
-    font-weight: bold;
-    font-size: 14px;
-    width: 120px;
-    height: 50px;
-    margin: 1%;
-    background-color: transparent;
-    border: 2px solid #fff;
-    color: #fff;
-    cursor: pointer;
+  left: 0;
+  border-radius: 5%;
+  font-weight: bold;
+  font-size: 14px;
+  width: 120px;
+  height: 50px;
+  margin: 1%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
 }
 
-
 .btn a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn:hover {
-    color: #111;
-    background-color: rgb(190, 190, 190);
-    border-color: #fff;
-    transition: all .3s ease-out;
+  color: #111;
+  background-color: rgb(190, 190, 190);
+  border-color: #fff;
+  transition: all .3s ease-out;
 }
+
 .text_home {
-    color: #fff;
-    font-size: 18px;
-    background-color: #222;
-    text-align: center;
-    padding: 50px 80px;
-    text-align: justify center;
-  }
+  color: #fff;
+  font-size: 18px;
+  background-color: #222;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify center;
+}
 
-  .bg_img_tenki_no_ko_inicio{
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.bg_img_tenki_no_ko_inicio {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .bg_img_tenki_no_ko_historia{
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-    .bg_img_tenki_no_ko_personagem{
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  .bg_img_tenki_no_ko_inicio {
-    background-image: url("../../img/tenki_no_ko_bg_2.jpg");
-    min-height: 100%;
-  }
+.bg_img_tenki_no_ko_historia {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .bg_img_tenki_no_ko_historia {
-    background-image: url("../../img/tenki_no_ko_bg_3.jpg");
-    min-height: 155%;
-  }
+.bg_img_tenki_no_ko_personagem {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  .bg_img_tenki_no_ko_personagem {
-    background-image: url("../../img/tenki_no_ko_bg_3.jpg");
-    height: 150vh;
-    width: 100%;
-  }
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
+.bg_img_tenki_no_ko_inicio {
+  background-image: url("../img/tenki_no_ko_bg_2.jpg");
+  min-height: 100%;
+  width: 100%;
+  margin-top: 7.2vh;
+}
 
-  .caption_historia {
-    position: absolute;
-    left: 0;
-    top: 10%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  
-  .caption_historia span.border {
-    background-color: #fff;
-    color: #111;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
+.bg_img_tenki_no_ko_historia {
+  background-image: url("../img/tenki_no_ko_bg_3.jpg");
+  min-height: 155%;
+}
 
-  
+.bg_img_tenki_no_ko_personagem {
+  background-image: url("../img/tenki_no_ko_bg_3.jpg");
+  height: 150vh;
+  width: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption_historia {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption_historia2 {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption_historia span.border {
+  background-color: #fff;
+  color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
 .text_home {
   position: relative;
   color: #fff;
@@ -200,7 +210,6 @@ nav img {
   text-align: justify center;
   text-transform: uppercase;
   letter-spacing: 10px;
-
 }
 
 .caption_musica {
@@ -220,12 +229,13 @@ nav img {
   letter-spacing: 10px;
 }
 
-img{
+img {
   width: 1000px;
   height: 550px;
   border: 2px dashed #333;
   margin: 3%;
 }
+
 .caption_historia span.border_text p {
   background-color: #fff;
   color: #111;
@@ -234,10 +244,9 @@ img{
   margin: auto;
   font-size: 25px;
   letter-spacing: 5px;
-
 }
 
-.caption_musica span.border_text p {
+.caption_musica span.border_text2 p {
   background-color: #fff;
   color: #111;
   padding: 18px;
@@ -245,7 +254,11 @@ img{
   margin: auto;
   font-size: 25px;
   letter-spacing: 5px;
+}
 
+.caption_musica span.border_text2 a {
+  text-decoration: underline;
+  color: #111;
 }
 
 .personagens_card1 {
@@ -321,7 +334,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_hodaka.jpg');
+  background-image: url('../img/tnk_ft_perfil_hodaka.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -332,7 +345,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_hina.jpg');
+  background-image: url('../img/tnk_ft_perfil_hina.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -343,7 +356,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_suga.jpg');
+  background-image: url('../img/tnk_ft_perfil_suga.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -354,7 +367,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_natsumi.jpg');
+  background-image: url('../img/tnk_ft_perfil_natsumi.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -365,7 +378,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_nagi.jpg');
+  background-image: url('../img/tnk_ft_perfil_nagi.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -376,7 +389,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_yasui.jpg');
+  background-image: url('../img/tnk_ft_perfil_yasui.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -387,7 +400,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_takai.jpg');
+  background-image: url('../img/tnk_ft_perfil_takai.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -398,7 +411,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_mitsuhi.jpg');
+  background-image: url('../img/tnk_ft_perfil_mitsuhi.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -409,7 +422,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/yn_ft_perfil_taki.jpg');
+  background-image: url('../img/yn_ft_perfil_taki.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -420,7 +433,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_ayane.jpg');
+  background-image: url('../img/tnk_ft_perfil_ayane.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -431,7 +444,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_kana.jpg');
+  background-image: url('../img/tnk_ft_perfil_kana.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -442,7 +455,7 @@ h2 {
   padding: 1px 2px;
   position: Absolute;
   top: 0px;
-  background-image: url('../../img/tnk_ft_perfil_sarcedote.jpg');
+  background-image: url('../img/tnk_ft_perfil_sarcedote.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -450,7 +463,6 @@ h2 {
 .property-description {
   background-color: #333;
   color: #fff;
-
   height: 60%;
   width: 100%;
   position: absolute;
@@ -470,7 +482,7 @@ h2 {
   height: 100%;
 }
 
-audio{
+audio {
   width: 50%;
   margin: auto;
 }
@@ -478,12 +490,12 @@ audio{
 .footer {
   color: #fff;
   background-color: #222;
-  height: 9vh;
+  height: 10vh;
   width: 100vw;
   display: flex;
   margin: auto;
+  text-align: center;
   text-transform: none;
-
 }
 
 .card {
@@ -492,4 +504,3 @@ audio{
   margin: auto;
   text-align: center;
 }
-

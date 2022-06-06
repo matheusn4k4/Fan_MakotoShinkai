@@ -162,14 +162,14 @@ nav img {
 }
 
 .bg_img_makoto_shinkai_inicio {
-  background-image: url("../../img/makoto-shinkai_1.jpg");
+  background-image: url("../img/makoto-shinkai_1.jpg");
   min-height: 100%;
   margin-top: 1vh;
 }
 
 .bg_img_makoto_shinkai_carreira {
-  background-image: url("../../img/makoto-shinkai_2.jpg");
-  height: 800vh;
+  background-image: url("../img/makoto-shinkai_2.jpg");
+  height: 820vh;
 }
 
 .caption {
@@ -254,7 +254,7 @@ nav img {
   margin: auto;
   font-size: 25px;
   letter-spacing: 5px;
-  margin-top: -12%;
+  margin-top: -6%;
 }
 
 .caption_carreira span.border_text p a {
@@ -295,8 +295,15 @@ nav img {
   border: 2px dashed #333;
 }
 
-.samuraix {
-  width: 300px;
+.primeiro_filme{
+  width: 900px;
+  height: 450px;
+  border: 2px dashed #333;
+  margin: 3%;
+}
+
+.img_manga  {
+  width: 350px;
   height: 500px;
   border: 2px dashed #333;
   margin: 3%;
@@ -310,11 +317,12 @@ video {
 
 .footer {
   color: #fff;
-  background-color: #111;
-  height: 9vh;
+  background-color: #222;
+  height: 10vh;
   width: 100vw;
   display: flex;
   margin: auto;
+  text-align: center;
   text-transform: none;
 }
 

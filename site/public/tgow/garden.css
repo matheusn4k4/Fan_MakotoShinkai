@@ -52,7 +52,6 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: space-around;
-
 }
 
 nav img {
@@ -135,26 +134,24 @@ nav img {
     min-height: 130vh;
 }
 
-
 .bg_img_garden {
-    background-image: url("../../img/garden_bg_1.jpg");
+    background-image: url("../img/garden_bg_1.jpg");
     min-height: 100%;
     width: 100%;
-    margin-top: 1vh;
+    margin-top: 7.2vh;
 }
 
 .bg_img_garden_historia {
-    background-image: url("../../img/gardem_bg_2.jpg");
+    background-image: url("../img/gardem_bg_2.jpg");
     min-height: 150vh;
     width: 100%;
 }
 
 .bg_img_garden_personagem {
-    background-image: url("../../img/gardem_bg_2.jpg");
-    min-height: 200vh;
+    background-image: url("../img/gardem_bg_2.jpg");
+    height: 90vh;
     width: 100%;
 }
-
 
 .caption {
     position: absolute;
@@ -197,17 +194,20 @@ nav img {
     margin-top: 5%;
 }
 
-
-.caption_musica span.border_text p {
+.caption_historia span.border_text2 p {
     background-color: #fff;
     color: #111;
     padding: 18px;
-    width: 64%;
+    width: 70%;
     margin: auto;
     font-size: 25px;
     letter-spacing: 5px;
-    margin-top: -20%;
+    margin-top: 5%;
+}
 
+.caption_historia span.border_text2 a {
+    text-decoration: underline;
+    color: #111;
 }
 
 .text_home {
@@ -239,19 +239,7 @@ audio {
 .personagens_card1 {
     position: relative;
     left: 0;
-    top: 0%;
-    width: 90%;
-    margin: auto;
-    align-items: center;
-    bottom: 0;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.personagens_card2 {
-    position: relative;
-    left: 0;
-    top: 10%;
+    top: 25%;
     width: 90%;
     margin: auto;
     align-items: center;
@@ -309,7 +297,7 @@ h2 {
     padding: 1px 2px;
     position: Absolute;
     top: 0px;
-    background-image: url('../../img/yn_ft_perfil_mitsuha.jpg');
+    background-image: url('../img/tgow_ft_perfil_takao.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -320,7 +308,7 @@ h2 {
     padding: 1px 2px;
     position: Absolute;
     top: 0px;
-    background-image: url('../../img/yn_ft_perfil_taki.jpg');
+    background-image: url('../img/tgow_ft_perfil_yukari.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -331,7 +319,7 @@ h2 {
     padding: 1px 2px;
     position: Absolute;
     top: 0px;
-    background-image: url('../../img/yn_ft_perfil_miki.jpg');
+    background-image: url('../img/tgow_ft_perfil_saki.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -342,95 +330,7 @@ h2 {
     padding: 1px 2px;
     position: Absolute;
     top: 0px;
-    background-image: url('../../img/yn_ft_perfil_hitoha.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image5 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_teshigawara.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image6 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_natori.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image7 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_fujii.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image8 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_takagi.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image9 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_yotsuha.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image10 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_toshiki.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image11 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_futaba.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.property-image12 {
-    height: 100%;
-    width: 100%;
-    padding: 1px 2px;
-    position: Absolute;
-    top: 0px;
-    background-image: url('../../img/yn_ft_perfil_yukari.jpg');
+    background-image: url('../img/tgow_ft_perfil_aizawa.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -461,17 +361,17 @@ h2 {
 .footer {
     color: #fff;
     background-color: #222;
-    height: 9vh;
+    height: 10vh;
     width: 100vw;
     display: flex;
     margin: auto;
+    text-align: center;
     text-transform: none;
-
-}
-
-.card {
+  }
+  
+  .card {
     text-transform: none;
     width: auto;
     margin: auto;
     text-align: center;
-}
+  }
