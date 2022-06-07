@@ -124,14 +124,6 @@ nav img {
   min-height: 130vh;
 }
 
-.bg_img_your_p {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .bg_img_your_name {
   background-image: url("../img/your_name_bg_1.jpg");
   min-height: 100%;

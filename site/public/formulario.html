@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/formulario/formulario.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="formulario/formulario.css">
+    <link rel="icon" href="img/icone.jpg">
+    <title>FMK | Formulario</title>
 
-    <script src="pages/formulario/formulario.js"></script>
+    <script src="formulario/formulario.js"></script>
     <script src="./js/funcoes.js"></script>
 
 </head>
@@ -16,134 +17,154 @@
 <body>
     <header>
         <nav>
-          <a href="../home/index.html"><img src="../../img/icone.jpg" alt="icone"></a>
-          <div class="posicao_head">
-            <a href="../makoto_shinai/makoto_shinkai.html">
-              <button class="btn">Makoto Shinkai</button>
-            </a>
-            <a href="../your_name/your_name.html">
-              <button class="btn">Your name</button>
-            </a>
-            <a href="../tenki_no_ko/tenki no ko.html">
-              <button class="btn">Weathering with you</button>
-            </a>
-            <a href="../tgow/">
-              <button class="btn">The garden of words</button>
-            </a>
-            <a href="../fcps/fcps.html">
-              <button class="btn">5 centimeters per second</button>
-            </a>
-            <a href="../formulario/formulario.html">
-              <button class="btn">Formulario</button>
-            </a>
-          </div>
+            <a href="index.html"><img src="img/icone.jpg" alt="icone"></a>
+            <div class="posicao_head">
+                <a href="makoto_shinai/makoto_shinkai.html">
+                    <button class="btn">Makoto Shinkai</button>
+                </a>
+                <a href="your_name/your_name.html">
+                    <button class="btn">Your name</button>
+                </a>
+                <a href="tenki_no_ko/tenki no ko.html">
+                    <button class="btn">Weathering with you</button>
+                </a>
+                <a href="tgow/Garden.html">
+                    <button class="btn">The garden of words</button>
+                </a>
+                <a href="fcps/fcps.html">
+                    <button class="btn">5 centimeters per second</button>
+                </a>
+                <a href="formulario.html">
+                    <button class="btn">Formulario</button>
+                </a>
+                <a href="analitycs/anlitics.html">
+                    <button class="btn">Analitycs</button>
+                </a>
+            </div>
         </nav>
     </header>
+
     <form>
-    <div class="form_container">
-        <h2>historia</h2>
-        <div class="controle_historia">
+        <div class="form_container">
+            <h2>historia</h2>
+            <div class="controle_historia">
 
-            <div class="form_card_1">
-                <li>
-                    <input value="yn" type="radio" name="radio" id="radiobtn_yn_historia" onclick="alterar_h()" checked>your name
-                </li>
-                <li>
-                    <input value="tnk" type="radio"  name="radio" id="radiobtn_tnk_historia" onclick="alterar_h()">weathering with you
-                </li>
-                <li>
-                    <input value="tgow" type="radio" name="radio" id="radiobtn_gow_historia" onclick="alterar_h()">the gardem of words
-                </li>
-                <li>
-                    <input value="fpcs" type="radio"  name="radio" id="radiobtn_fcps_historia" onclick="alterar_h()">5 centimeters per second
-                </li>
+                <div class="form_card_1">
+                    <li>
+                        <input value="your name" type="radio" name="radio" id="radiobtn_yn_historia" onclick="alterar_h()"
+                            checked>your name
+                    </li>
+                    <li>
+                        <input value="weathering with you" type="radio" name="radio" id="radiobtn_tnk_historia"
+                            onclick="alterar_h()">weathering with you
+                    </li>
+                    <li>
+                        <input value="the gardem of words" type="radio" name="radio" id="radiobtn_gow_historia"
+                            onclick="alterar_h()">the gardem of words
+                    </li>
+                    <li>
+                        <input value="5 centimeters per second" type="radio" name="radio" id="radiobtn_fcps_historia"
+                            onclick="alterar_h()">5 centimeters per second
+                    </li>
 
+                </div>
+                <img id="ft_cartaz" src="img/yn_ft.jpg" alt="ft_cartaz">
             </div>
-            <img id="ft_cartaz" src="../../img/yn_ft.jpg" alt="ft_cartaz">
-        </div>
-        <div class="space">
-            <hr>
-        </div>
-        <h2>musica abertura</h2>
-        <div class="controle_historia">
-
-            <div class="form_card_1">
-                <li>
-                    <input value="ym" type="radio"  name="radio3" id="radiobtn_yn_op" onclick="alterar_op()">your name
-                </li>
-                <li>
-                    <input value="tnk" type="radio"  name="radio3" id="radiobtn_tnk_op" onclick="alterar_op()" checked>weathering with you
-                </li>
-                <li>
-                    <input value="tgow" type="radio"  name="radio3"id="radiobtn_gow_op" onclick="alterar_op()">gardem of words
-                </li>
-                <li>
-                    <input value="fcps" type="radio" name="radio3" id="radiobtn_fcps_op" onclick="alterar_op()">5 centimeters per second
-                </li>
-
+            <div class="space">
+                <hr>
             </div>
-            <img id="ft_cartaz3" src="../../img/yn_ft.jpg" alt="your_name_cartaz">
-            <audio controls id="audio_op">
-                <source src="../music/yn_op.mp3" type='audio/mpeg'/>
-            </audio>
-        </div>
-        <div class="space">
-            <hr>
-        </div>
-        <h2>musica tema</h2>
-        <div class="controle_historia">
+            <h2>musica abertura</h2>
+            <div class="controle_historia">
 
-            <div class="form_card_1">
-                <li>
-                    <input value="yn" type="radio"  name="radio4" id="radiobtn_yn_ost" onclick="alterar_ost()">your name
-                </li>
-                <li>
-                    <input value="tnk" type="radio"  name="radio4" id="radiobtn_tnk_ost" onclick="alterar_ost()">weathering with you
-                </li>
-                <li>
-                    <input value="tgow" type="radio"  name="radio4" id="radiobtn_gow_ost" onclick="alterar_ost()"checked>gardem of words
-                </li>
-                <li>
-                    <input value="fcps" type="radio"  name="radio4" id="radiobtn_fcps_ost" onclick="alterar_ost()">5 centimeters per second
-                </li>
+                <div class="form_card_1">
+                    <li>
+                        <input value="your name" type="radio" name="radio3" id="radiobtn_yn_op" onclick="alterar_op()">your
+                        name
+                    </li>
+                    <li>
+                        <input value="weathering with you" type="radio" name="radio3" id="radiobtn_tnk_op" onclick="alterar_op()"
+                            checked>weathering with you
+                    </li>
+                    <li>
+                        <input value="the gardem of words" type="radio" name="radio3" id="radiobtn_gow_op"
+                            onclick="alterar_op()">gardem of words
+                    </li>
+                    <li>
+                        <input value="5 centimeters per second" type="radio" name="radio3" id="radiobtn_fcps_op" onclick="alterar_op()">5
+                        centimeters per second
+                    </li>
 
+                </div>
+                <img id="ft_cartaz3" src="img/yn_ft.jpg" alt="your_name_cartaz">
+                <audio controls id="audio_op">
+                    <source src="music/yn_op.mp3" type='audio/mpeg' />
+                </audio>
             </div>
-            <img id="ft_cartaz4" src="../../img/yn_ft.jpg" alt="your_name_cartaz">
-            <audio controls id="audio_ost">
-                <source src="../music/yn_op.mp3" type='audio/mpeg'/>
-            </audio>
-        </div>
-        <div class="space">
-            <hr>
-        </div>
-        <h2>musica final</h2>
-        <div class="controle_historia">
-
-            <div class="form_card_1">
-                <li>
-                    <input value="yn" type="radio"  name="radio5" id="radiobtn_yn_end" onclick="alterar_end()">your name
-                </li>
-                <li>
-                    <input value="tnk" type="radio" name="radio5" id="radiobtn_tnk_end" onclick="alterar_end()">weathering with you
-                </li>
-                <li>
-                    <input value="tgow" type="radio" name="radio5" id="radiobtn_gow_end" onclick="alterar_end()">gardem of words
-                </li>
-                <li>
-                    <input value="fcps" type="radio" name="radio5" id="radiobtn_fcps_end" onclick="alterar_end()"checked>5 centimeters per second
-                </li>
-
+            <div class="space">
+                <hr>
             </div>
-            <img id="ft_cartaz5" src="../../img/yn_ft.jpg" alt="your_name_cartaz">
-            <audio controls id="audio_end">
-                <source src="../music/yn_op.mp3" type='audio/mpeg'/>
-            </audio>
-        </div>
-        <div class="space">
-            <hr>
-        </div>
-        <h2>Dados pessoais</h2>
-        <form action=""></form>
+            <h2>musica tema</h2>
+            <div class="controle_historia">
+
+                <div class="form_card_1">
+                    <li>
+                        <input value="yn" type="radio" name="radio4" id="radiobtn_yn_ost" onclick="alterar_ost()">your
+                        name
+                    </li>
+                    <li>
+                        <input value="weathering with you" type="radio" name="radio4" id="radiobtn_tnk_ost"
+                            onclick="alterar_ost()">weathering with you
+                    </li>
+                    <li>
+                        <input value="the gardem of words" type="radio" name="radio4" id="radiobtn_gow_ost" onclick="alterar_ost()"
+                            checked>gardem of words
+                    </li>
+                    <li>
+                        <input value="5 centimeters per second" type="radio" name="radio4" id="radiobtn_fcps_ost" onclick="alterar_ost()">5
+                        centimeters per second
+                    </li>
+
+                </div>
+                <img id="ft_cartaz4" src="img/yn_ft.jpg" alt="your_name_cartaz">
+                <audio controls id="audio_ost">
+                    <source src="music/yn_op.mp3" type='audio/mpeg' />
+                </audio>
+            </div>
+            <div class="space">
+                <hr>
+            </div>
+            <h2>musica final</h2>
+            <div class="controle_historia">
+
+                <div class="form_card_1">
+                    <li>
+                        <input value="yn" type="radio" name="radio5" id="radiobtn_yn_end" onclick="alterar_end()">your
+                        name
+                    </li>
+                    <li>
+                        <input value="weathering with you" type="radio" name="radio5" id="radiobtn_tnk_end"
+                            onclick="alterar_end()">weathering with you
+                    </li>
+                    <li>
+                        <input value="the gardem of words" type="radio" name="radio5" id="radiobtn_gow_end"
+                            onclick="alterar_end()">gardem of words
+                    </li>
+                    <li>
+                        <input value="5 centimeters per second" type="radio" name="radio5" id="radiobtn_fcps_end" onclick="alterar_end()"
+                            checked>5 centimeters per second
+                    </li>
+
+                </div>
+                <img id="ft_cartaz5" src="img/yn_ft.jpg" alt="your_name_cartaz">
+                <audio controls id="audio_end">
+                    <source src="music/yn_op.mp3" type='audio/mpeg' />
+                </audio>
+            </div>
+            <div class="space">
+                <hr>
+            </div>
+            <h2>Dados pessoais</h2>
+            <form action=""></form>
             <div class="card_dados_p">
                 <div class="dados_p_nome">
                     <input type="text" id="inp_nome" required value="nakamura">
@@ -151,19 +172,21 @@
                 </div>
                 <div>
                     <div class="dados_p_email">
-                        <input type="text" id="inp_email" required minlength="3" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" / value="nakamura@gmail.com">
+                        <input type="text" id="inp_email" required minlength="3"
+                            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" / value="nakamura@gmail.com">
                         <label for="CPF">e-mail</label>
                     </div>
                 </div>
 
-                <div class="dados_p_idade">s
+                <div class="dados_p_idade">
                     <label for="inp_nasc_ano">Data de nascimento:</label>
                     <input type="date" id="inp_nac" required value="1212-12-12">
                 </div>
 
                 <div class="dados_p_sexo">
                     <label for="radio_sexo">Sexo:</label>&nbsp;&nbsp;
-                    <input value="M" type="radio" name="radio_sexo" id="sex_mas"  onclick="mostar()" checked>&nbsp;&nbsp;Masculino&nbsp;
+                    <input value="M" type="radio" name="radio_sexo" id="sex_mas" onclick="mostar()"
+                        checked>&nbsp;&nbsp;Masculino&nbsp;
                     <input value="F" type="radio" name="radio_sexo" id="sex_fem" onclick="mostar()">&nbsp;&nbsp;Feminino
                 </div>
                 <div class="dados_p_city">
@@ -208,10 +231,10 @@
 
     <div class="footer">
         <div class="card">
-          <h2>Feito por um aluno Sptech!</h2>
+            <h2>Feito por um aluno Sptech!</h2>
         </div>
-      </div>
-    
+    </div>
+
 </body>
 
 </html>

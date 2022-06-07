@@ -31,6 +31,12 @@ function cadastrar(historia, opening, ost, ending, nome, email, data, sexo, cida
     return database.executar(instrucao);
 }
 
+function kpiMetrica (){
+    var instrucao = `
+        select count(idformulario) from formulario where historia = 'yn'
+        `;
+}
+
 module.exports = {
     entrar,
     cadastrar,

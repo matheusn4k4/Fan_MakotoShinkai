@@ -99,10 +99,20 @@ function cadastrar(req, res) {
                 }
             );
     }
-
+function kpiMetrica(req,res){
+    
+    usuarioModel
+        .kpiMetrica()
+        .then(function(resultado){
+            res.status(200).jason(resultado);
+        }).catch(function (erro){
+            res.status(500).jason(erro);
+        })
+}
 
 module.exports = {
     entrar,
+    kpiMetrica,
     cadastrar,
     listar,
     testar
